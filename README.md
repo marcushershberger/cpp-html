@@ -1,6 +1,6 @@
 # cpp-html
 
-NOTES
+NOTES (Same as notes.pdf)
 
 The Output Goal
 An HTML page with two columns, with a button in the left-side column. When the button is pressed, a chart will appear in the right-side column.
