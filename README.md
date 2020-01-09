@@ -12,6 +12,9 @@ The chart code was taken from chart.js (https://www.chartjs.org/), an open sourc
 There are bits and pieces that could definitely be refined if this were a full project, though for the purpose of this exercise, everything seems to work. The Canvas class used does not utilize the actual HTML canvas tag because canvas tags cannot hold nested content, which seems like they would be useless for holding multiple columns. Instead, divs were used, and the ‘canvas’ can hold any specified number of columns. There is also a bit of code duplication that could be cleaned up a bit. Comments could be more descriptive. Additionally, the Chart class deals with the inclusion of the JS code, but this should probably be separated into a different class, because the addition of a second chart to the page would result in JS errors in the browser because of multiple elements with the same id’s and multiple declarations of the same JS variable.
 
 Compiled using g++ 8.3.0 on Kubuntu 19.04
+
 Commands for compiling and running:
+	
 	$ g++ *.cpp -o out
+	
 	$ ./out
